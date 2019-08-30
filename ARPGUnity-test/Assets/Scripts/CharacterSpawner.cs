@@ -21,15 +21,38 @@ public class CharacterSpawner : MonoBehaviour
 
     [SerializeField] private MatchmakerWithRelayedMultiplayer _matchmaker;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         _usersOnMap = new List<INetworkEntity>();
+    }
+
+    void Start()
+    {
         _matchmaker.OnMatchPrecense += OnNewMatchPrecense;
         _matchmaker.OnNewDataState += OnNewDataState;
     }
 
-    
+    private void OnNewDataState(string userId, DataCode code, string data)
+    {
+        try
+        {
+            var user = _usersOnMap.SingleOrDefault(u => u.UserPresence.UserId.Equals(userId));
+            user?.OnReceiveData(code, data);
+        }
+        catch (InvalidOperationException e)
+        {
+            Debug.LogWarning("The input sequence contains more than one element. " + e);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        // ReSharper disable once DelegateSubtraction
+        _matchmaker.OnMatchPrecense -= OnNewMatchPrecense;
+        // ReSharper disable once DelegateSubtraction
+        _matchmaker.OnNewDataState -= OnNewDataState;
+    }
+
 
     private void OnNewMatchPrecense(bool action, IUserPresence user)
     {
@@ -60,12 +83,5 @@ public class CharacterSpawner : MonoBehaviour
             _usersOnMap.Remove(disPlayer);
             Destroy(disPlayer.GameObject);
         }
-    }
-    
-    private void OnNewDataState(string userId, DataCode code, string data)
-    {
-        var user = _usersOnMap.SingleOrDefault(u => u.UserPresence.UserId.Equals(userId));
-        if (user == null) return;
-        user.OnReceiveData(code, data);
     }
 }

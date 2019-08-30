@@ -9,7 +9,6 @@ public class PlayerCharacter : PlayableCharacter
     protected override void Start()
     {
         base.Start();
-        //Debug.Log(GetType().Name);
     }
 
     // Update is called once per frame

@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-//[RequireComponent(typeof(CharacterMovement))]
 public class MouseInput : MonoBehaviour
 {
     private CharacterMovement characterMovement;
@@ -25,10 +24,6 @@ public class MouseInput : MonoBehaviour
         {
             OnMouseLeftClick();
         }
-        else if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            //ATTACK CHARACTER
-        }
 
     }
 
@@ -38,9 +33,8 @@ public class MouseInput : MonoBehaviour
         RaycastHit hit;
         var mainCamera = Camera.main;
         if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 1000, _layer))
-        {    
-//            Debug.Log("Position clicked" + hit.point);
-             characterMovement.MovePlayer(hit.point);
+        {
+            characterMovement.MovePlayer(hit.point);
              var markPos = hit.point;
              markPos.y = 0.5f;
              markPointer.transform.position = markPos;

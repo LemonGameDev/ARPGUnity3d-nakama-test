@@ -11,8 +11,6 @@ public class UICharacterName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-//        var randomNumber = Random.Range(1, 99);
-//        SetPlayerName("Player "+ randomNumber);
     }
 
     // Update is called once per frame

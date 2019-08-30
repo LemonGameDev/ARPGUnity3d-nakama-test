@@ -69,14 +69,11 @@ public class ARPGMovement : CharacterMovement, ISync<Vector3>
 
     private IEnumerator CheckTargetReached(Vector3 pos)
     {
-        //var dist = _navMeshAgent.remainingDistance;
         while (true)
         {
             var pos1 = (transform.position - pos).magnitude;
-            //Debug.Log("pos reached -> " + pos1);
             if (Math.Abs(pos1) < 0.1f)
             {
-//                Debug.Log("TARGET REACHED!!!!!!");
                 _animator.SetBool(Walking, false);
                 yield break;
             }

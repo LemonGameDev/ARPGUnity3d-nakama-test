@@ -18,9 +18,6 @@ public class RotateToClick
 
     public void Rotate(Vector3 pos, float rotationSpeed)
     {
-        //crashea a morir locooooooooooooooooo
-        // rotable.transform.LookAt(pos);
-
         var lookAt = new Vector3(pos.x - rotable.transform.position.x,
             rotable.transform.position.y, pos.z - rotable.transform.position.z);
         lookAtTarget = Quaternion.LookRotation(lookAt);

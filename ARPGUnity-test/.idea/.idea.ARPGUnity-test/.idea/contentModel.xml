@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Pablo\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Pablo\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ARPGUnity-test.353526671.00" t="ExcludeRecursive" />
+    <e p="D:\Desarrollo\Unity\Proyectos UNITY\ARPGUnity-nakama-test\ARPGUnity-test" t="IncludeRecursive">
+      <e p="ARPGUnity-test.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Characters" t="Include">
+            <e p="Enemy" t="Include">
+              <e p="EnemyCharacter.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="RainEntertainment" t="Include">
+                <e p="FantasyMonster" t="Include">
+                  <e p="RoyaleAxe" t="Include">
+                    <e p="readMe.txt" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Nakama" t="Include">
+          <e p="ClientExtensions.cs" t="Include" />
+          <e p="JsWebSocketAdapter.cs" t="Include" />
+          <e p="link.xml" t="Include" />
+          <e p="Snippets" t="Include">
+            <e p="AccountAndUsers.cs" t="Include" />
+            <e p="DeviceAuthentication.cs" t="Include" />
+            <e p="MatchmakerWithRelayedMultiplayer.cs" t="Include" />
+            <e p="NakamaManager.cs" t="Include" />
+            <e p="NakamaManagerUsage.cs" t="Include" />
+            <e p="RealtimeChatRoom.cs" t="Include" />
+            <e p="RejoinChatAfterDisconnect.cs" t="Include" />
+            <e p="SocketConnect.cs" t="Include" />
+            <e p="WebGLExample.cs" t="Include" />
+          </e>
+          <e p="UnityLogger.cs" t="Include" />
+          <e p="UnityWebRequestAdapter.cs" t="Include" />
+          <e p="Version.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ARPGcamera.cs" t="Include" />
+          <e p="BoxTextController.cs" t="Include" />
+          <e p="Characters" t="Include">
+            <e p="ARPGMovement.cs" t="Include" />
+            <e p="Character.cs" t="Include" />
+            <e p="CharacterHealth.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="INetworkEntity.cs" t="Include" />
+            <e p="ISync.cs" t="Include" />
+            <e p="MouseInput.cs" t="Include" />
+            <e p="NonPlayableCharacter.cs" t="Include" />
+            <e p="Outline.cs" t="Include" />
+            <e p="PlayableCharacter.cs" t="Include" />
+            <e p="PlayerCharacter.cs" t="Include" />
+            <e p="RotateToClick.cs" t="Include" />
+            <e p="UICharacterName.cs" t="Include" />
+          </e>
+          <e p="CharacterSpawner.cs" t="Include" />
+          <e p="ChatBox.cs" t="Include" />
+          <e p="Server" t="Include">
+            <e p="DataCode.cs" t="Include" />
+            <e p="NetworkCharacter.cs" t="Include" />
+            <e p="NetworkCharacterInput.cs" t="Include" />
+          </e>
+          <e p="SimpleCameraController.cs" t="Include" />
+          <e p="TriggerColission.cs" t="Include" />
+          <e p="UnityMainThread.cs" t="Include" />
+        </e>
+        <e p="Textures" t="Include">
+          <e p="Grass And Flowers Pack 1" t="Include">
+            <e p="Example Scene" t="Include">
+              <e p="SimpleTextureDrawing.cs" t="Include" />
+              <e p="Skyboxes" t="Include">
+                <e p="_skybox info.txt" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="TextMesh Pro" t="Include">
+            <e p="Examples &amp; Extras" t="Include">
+              <e p="Fonts" t="Include">
+                <e p="Anton OFL.txt" t="Include" />
+                <e p="Bangers - OFL.txt" t="Include" />
+                <e p="LiberationSans - OFL.txt" t="Include" />
+                <e p="Oswald-Bold - OFL.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Benchmark01.cs" t="Include" />
+                <e p="Benchmark01_UGUI.cs" t="Include" />
+                <e p="Benchmark02.cs" t="Include" />
+                <e p="Benchmark03.cs" t="Include" />
+                <e p="Benchmark04.cs" t="Include" />
+                <e p="CameraController.cs" t="Include" />
+                <e p="ChatController.cs" t="Include" />
+                <e p="EnvMapAnimator.cs" t="Include" />
+                <e p="ObjectSpin.cs" t="Include" />
+                <e p="ShaderPropAnimator.cs" t="Include" />
+                <e p="SimpleScript.cs" t="Include" />
+                <e p="SkewTextExample.cs" t="Include" />
+                <e p="TeleType.cs" t="Include" />
+                <e p="TextConsoleSimulator.cs" t="Include" />
+                <e p="TextMeshProFloatingText.cs" t="Include" />
+                <e p="TextMeshSpawner.cs" t="Include" />
+                <e p="TMP_DigitValidator.cs" t="Include" />
+                <e p="TMP_ExampleScript_01.cs" t="Include" />
+                <e p="TMP_FrameRateCounter.cs" t="Include" />
+                <e p="TMP_PhoneNumberValidator.cs" t="Include" />
+                <e p="TMP_TextEventCheck.cs" t="Include" />
+                <e p="TMP_TextEventHandler.cs" t="Include" />
+                <e p="TMP_TextInfoDebugTool.cs" t="Include" />
+                <e p="TMP_TextSelector_A.cs" t="Include" />
+                <e p="TMP_TextSelector_B.cs" t="Include" />
+                <e p="TMP_UiFrameRateCounter.cs" t="Include" />
+                <e p="TMPro_InstructionOverlay.cs" t="Include" />
+                <e p="VertexColorCycler.cs" t="Include" />
+                <e p="VertexJitter.cs" t="Include" />
+                <e p="VertexShakeA.cs" t="Include" />
+                <e p="VertexShakeB.cs" t="Include" />
+                <e p="VertexZoom.cs" t="Include" />
+                <e p="WarpTextExample.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
